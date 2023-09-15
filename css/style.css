@@ -1,22 +1,98 @@
-*{
-    margin:0;
-    padding:0
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
-    background-color: rgb(0,0,33);
+
+body {
+    background-color: rgb(45, 33, 105);
     color: white;
     font-family: 'Poppins', sans-serif;
 }
-nav{
-    display:flex;
+
+nav {
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 70px;
+    background-color: rgb(2, 2, 61);
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
-    margin: 0 23px;
+    padding-top: 15px;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(172, 172, 242);
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.firstSection div {
+    width: 30%;
+}
+
+.leftSection {
+    margin: 70px 0;
+    font-size: 2rem;
+}
+
+.rightSection img {
+    width: 120%;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 30px;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: rgb(17, 17, 81);
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.fourthSection {
+    max-width: 80vw;
+    margin: auto;
+}
+#para{
+    width:60px;
+    height:60px;
 }
